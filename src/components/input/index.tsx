@@ -13,7 +13,7 @@ const InputBase: ForwardRefRenderFunction<HTMLInputElement, IInput> = ({ placeho
 				placeholder={placeholder}
 				{...rest}
 				ref={ref}
-				className="px-3 py-2 bg-gray-950 rounded-md w-full"
+				className="px-3 py-2 bg-gray-900 rounded-md w-full"
 			/>
 		</div>
 	);

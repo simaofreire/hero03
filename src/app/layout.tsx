@@ -1,4 +1,5 @@
 import Container from '@/components/container';
+import Footer from '@/components/footer';
 import Header from '@/components/header';
 import type { Metadata } from 'next';
 import { Rubik } from 'next/font/google';
@@ -20,6 +21,7 @@ export default function RootLayout({
 			<body className={`${rubik.variable} bg-black text-white`}>
 				<Header />
 				<Container>{children}</Container>
+				<Footer />
 			</body>
 		</html>
 	);

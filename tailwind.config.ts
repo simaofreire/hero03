@@ -11,9 +11,11 @@ const config: Config = {
 			fontFamily: { sans: 'var(--font-rubik)' },
 			colors: {
 				'gray-1000': '#2E2E2E',
-				'gray-900': '#4E4E4E',
+				'gray-950': '#4E4E4E',
+				'gray-900': '#2C3C3C',
 				black: '#0F0F0F',
-				primary: '#81E6D9'
+				primary: '#81E6D9',
+				secondary: '#212121'
 			}
 		}
 	},
